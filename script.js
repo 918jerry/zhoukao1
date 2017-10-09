@@ -1,0 +1,1 @@
+function unique1(){for(var i=[],r={},t=0;t<this.length;t++)r[this[t]]||(i.push(this[t]),r[this[t]]=1);return i}var arr=[1,2,5,7,9,5,9];unique1();
